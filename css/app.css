@@ -20,5 +20,15 @@ h1 {
   font-size: 10vmax;
   font-weight: bold;
   letter-spacing: 7px;
+  transform: rotate(0deg);
+  transition: all 1s ease-in-out;
+}
+
+h1.show {
   transform: rotate(-10deg);
+  background: #ff00cc;
+  background: linear-gradient(to right, #333399, #ff00cc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
