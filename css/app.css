@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #faf2f2;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5rem;
+  font-size: 10vmax;
+  font-weight: bold;
+  letter-spacing: 7px;
+  transform: rotate(-10deg);
+}
