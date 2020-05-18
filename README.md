@@ -14,9 +14,9 @@ As shown in the above diagram I had three branches:
 2. Freshlook - the newly updated website with no code or content taken from the master branch;
 3. Darkmode - I've created a branch based on freshlook branch and implemented darkmode.
 
-I use _Netlify_ to deploy my code. In the past on _Netlify_ I've used to point to the master branch, but when I finally decided to update my website, I pointed to the _freshlook_ branch.
+I use _Netlify_ to deploy my code. In the past I've used _Netlify_ to point to the master branch, but when I finally decided to update my website, I pointed to the _freshlook_ branch.
 
-After, I decided to implement a new feature and created a new branch called _darkmode_, I've implemented the code and then I use _Netlify_ to point to the _darkmode_ branch.
+After, I decided to implement a new feature and created a new branch called _darkmode_ where I've implemented the code and then I use _Netlify_ to point to the _darkmode_ branch.
 
 As you see, everything was a mess and I started asking myself what is a simple workflow in small teams and how can I mimic it.
 
@@ -176,7 +176,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 _Screenshot with my steps:_
 
-![Check the working tree status](img/check-working-tree-status.PNG)
+![Check the working tree status](img/check-working-tree-status.png)
 
 ## Add and Commit
 
