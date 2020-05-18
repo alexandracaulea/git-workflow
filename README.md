@@ -31,11 +31,11 @@ My current workflow is pretty simple, I use the:
 3. For each feature I started creating a new branch. Each feature branch uses develop as their parent branch and it does not interact directly with the master. The main rule I follow is each feature branches are created off the latest develop branch. After I finish working on a feature I merge it into the develop.
 4. Hotfix branches are based on master instead of develop and as soon as the urgent fix is complete I merged it both into master and develop.
 
-Even if currently I have only a one page website, I really wanted to use Git more easily and appropriate then I've used before. Keep in mind that I've started to research more only when I started to think how should I use Gatsby on my website, add content and pages (I currently working on this).
+Even if currently I have only a one page website, I really wanted to use Git more easily and appropriate than I've used before. Keep in mind that I've started researching more only when I asked myself how should I use Gatsby on my website, adding content and pages (I'm currently working on this).
 
 ## Practice first
 
-Instead of going on my repository and make a more mess that it was, I decided to start fresh with a new small repository, a few files to practice working with branches, figure out how to delete branches locally and remotely (since I actually needed to do in my project), learn new Git commands and many more things.
+Instead of going on my repository and make a bigger mess than it was, I decided to start fresh with a new small repository, a few files to practice working with branches, figure out how to delete branches locally and remotely (since I actually needed to do in my project), learn new Git commands and many more things.
 
 Below you will find the steps that I've used to practice, small snippets and things that I've learned. As I will learn more and my workflow will change, I will update the steps.
 
@@ -52,7 +52,7 @@ After you click the _Create repository_ button you will be taken to the quick se
 _Note_: below are the steps to set up your repository from the command line.
 
 Open your terminal, navigate to the directory of your choice, make a new folder, cd into the newly created folder and initialize the repository.
-If you have configured to connect to GitHub using SSH, take the SSH version of the link if not take the HTTPS version.
+If you have configured to connect to GitHub using SSH, take the SSH version of the link, if not take the HTTPS version.
 
 To configure SSH follow [these](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) steps.
 
@@ -265,7 +265,7 @@ PS D:\Dropbox\working-on\git-workflow>
 
 The output says that the _index.html_ file was changed and 1 insertion was made.
 
-If you run again `git pull origin master` and `git push origin master`, if no changes was made in the meantime, you will see that the local and remote repositories are synced.
+If you run again `git pull origin master` and `git push origin master` (assuming no changes were made in the meantime), you will see that the local and remote repositories are synced.
 
 ```
 # Executing git pull origin master
@@ -305,7 +305,7 @@ git tag -a v1.0 -m "Releasing version v1.0"
 
 The `-a` option stands for "annotated tag", `v1.0` is the actual tag and `-m` option is used to add a tag message.
 
-To see the details of this tag we can type `git show v1.0`. This will show you who the tag details and information from the commit that was tagged.
+To see the details of this tag we can type `git show v1.0`. This will show you the tag details and information from the commit that was tagged.
 
 ```
 # Show details for v1.0
@@ -359,11 +359,11 @@ Some repositories will have different branches to record the history of the soft
 
 1. Master branch should have production code only. Think about it as the branch that stores official release history.
 
-2. Develop branch is the "live" version of the project and it servers as an integration branch for new features. This means, if you are working in a team, or even only by yourself, this branch is the one when you will push to code on a regular basis with new features.
+2. Develop branch is the "live" version of the project and it serves as an integration branch for new features. This means, if you are working in a team, or even only by yourself, this branch is the one where you will push the code on a regular basis with new features.
 
 3. Feature branches - each new feature should have its own branch, and should use develop as their parent branch. Each feature should not interact directly with the master branch. Think of each feature branch like a new chunck of code what will be eventually tested and added to the codebase. Feature branches are usually created off the latest develop branch.
 
-4. Hotfixes branches used to quickly patch production releases.
+4. Hotfix branches used to quickly patch production releases.
 
 5. And other branches.
 
@@ -389,7 +389,7 @@ PS D:\Dropbox\working-on\git-workflow> git branch
 * master
 ```
 
-At this point, we have two branches, master and develop, and we are currently on the master branch, denoted by the `*` in front of ths master.
+At this point, we have two branches, master and develop, and we are currently on the master branch, denoted by the `*` in front of the master.
 
 Let's switch to the _develop_ branch to make some changes there. From now on, we will not make any changes directly to the master branch since we should not make any changes to our "production" release v1.0.
 
@@ -739,7 +739,7 @@ Fast-forward
 PS D:\Dropbox\working-on\git-workflow>
 ```
 
-Since we merged the feature-1 branch in the develop branch, we don't need anymore the feature-1 branch. Let's delete it using `git branch -d feature-1`. You should also see that your feature-1 no longer appears in our log command.
+Since we merged the feature-1 branch in the develop branch, we don't need the feature-1 branch anymore. Let's delete it using `git branch -d feature-1`. You should also see that your feature-1 no longer appears in our log command.
 
 You should also see that your HEAD is pointing to our develop branch.
 
