@@ -7,7 +7,7 @@ In this repository I'm practicing working with Git. This repository will help me
 1. [About](#about)
 2. [Practice first](#practice-first)
 3. [Create a new repository on GitHub](#create-a-new-repository-on-github)
-4. [Let's discuss about the workflow](#let's-discuss-about-the-workflow)
+4. [Let&apos;s discuss about the workflow](#lets-discuss-about-the-workflow)
 5. [Create some files](#create-some-files)
 6. [Add and Commit](#add-and-commit)
 7. [Update the local repository](#update-the-local-repository)
@@ -115,7 +115,7 @@ git remote remove new-origin
 # origin  git@github.com:alexandracaulea/git-workflow.git (push)
 ```
 
-## Let's discuss about the workflow
+## Let&apos;s discuss about the workflow
 
 Your local repository consists of three trees maintained by Git:
 
