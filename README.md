@@ -2,6 +2,23 @@
 
 In this repository I'm practicing working with Git. This repository will help me better understand the Git workflow.
 
+## Table of Contents
+
+1. [About](#about)
+2. [Practice first](#practice-first)
+3. [Create a new repository on GitHub](#create-a-new-repository-on-github)
+4. [Let's discuss about the workflow](#let's-discuss-about-the-workflow)
+5. [Create some files](#create-some-files)
+6. [Add and Commit](#add-and-commit)
+7. [Update the local repository](#update-the-local-repository)
+8. [Tagging Production Releases](#tagging-production-releases)
+9. [Working with Branches](#working-with-branches)
+10. [Merging Branches](#merging-branches)
+11. [Quick Note](#quick-note)
+12. [Reference](#reference)
+
+## About
+
 I've been working on my website and I wanted to scale it, add more content, use Gatsby but I didn't know how to use Git within it.
 
 My Git workflow was pretty simple: it didn't exist.
@@ -282,7 +299,7 @@ Everything up-to-date
 PS D:\Dropbox\working-on\git-workflow>
 ```
 
-## Taging Production Releases
+## Tagging Production Releases
 
 When we finally decided that we can release our first version of our application, we can tag the last commit to the master branch as version 1.
 
@@ -836,7 +853,7 @@ To github.com:alexandracaulea/git-workflow.git
    015abbf..0649fa1  master -> master
 ```
 
-## Quick note
+## Quick Note
 
 I am still learning and improving this workflow.
 
